@@ -1,0 +1,18 @@
+{
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    // Prevent __pycache__ folders from being created on the host's local device
+    "terminal.integrated.env.windows": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+    },
+
+    // Hides any __pycache__ folders created outside our rules
+    "files.exclude": {
+        "**/__pycache__": true
+    }
+}
