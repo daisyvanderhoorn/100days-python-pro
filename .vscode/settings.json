@@ -14,5 +14,8 @@
     // Hides any __pycache__ folders created outside our rules
     "files.exclude": {
         "**/__pycache__": true
-    }
+    },
+
+    // Python type-checking
+    "python.analysis.typeCheckingMode": "basic"
 }
