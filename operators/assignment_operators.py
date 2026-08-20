@@ -2,7 +2,7 @@ def assignment_operators():
     """
     Assignment Operators
     ----------------------
-    =    x = 5        plain assignment
+    =    x = 5         plain assignment
     +=   x = x + 5     add and assign
     -=   x = x - 5     subtract and assign
     *=   x = x * 5     multiply and assign
