@@ -23,3 +23,11 @@ def arithmetic_operators():
 
 if __name__ == "__main__":
     arithmetic_operators()
+
+
+sum = 10 % 7
+print(sum % 2)
+if sum % 2 != 0:
+    print("Number is not even")
+else:
+    print("Number is even")

@@ -16,3 +16,6 @@ print(round(bmi))
 
 # Round down to X decimals
 print(round(bmi, 2))
+
+
+print(f"{bmi:.2f}")
